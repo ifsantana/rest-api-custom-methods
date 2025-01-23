@@ -6,9 +6,14 @@ Resource-oriented design ([AIP-121](https://google.aip.dev/121)) uses custom met
 Custom methods are important because they provide a means for an API's vocabulary to adhere to user intent.
 
 Guidance
+
 Custom methods should only be used for functionality that can not be easily expressed via standard methods; prefer standard methods if possible, due to their consistent semantics. (Of course, this only applies if the functionality in question actually conforms to the normal semantics; it is not a good idea to contort things to endeavor to make the standard methods "sort of work".)
 
-## Endpoitns List:
+Resource-based custom methods
+
+Custom methods must operate on a resource if the API can be modeled as such the examples below:
+
+## Endpoitns List
 
 ### Enable Users
 
